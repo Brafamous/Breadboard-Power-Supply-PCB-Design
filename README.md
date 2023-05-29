@@ -7,7 +7,7 @@ A power supply unit (PSU) is a device that converts alternating current (AC) pow
 Most of the embedded circuits have a standard operating voltage of 5V or 3.3V on the power rails of the breadboard. In this project, I decided to design a power supply which can deliver both either 5V or 3.3V  on the power rails. This project was soley designed using KiCAD.
 
 # Bill of Materials for the Project
-| Header 1 | Header 2 |
-|----------|----------|
-| Content 1| Content 2|
-| Content 3| Content 4|
+| Reference  | Value | Footprint Used |
+|----------|----------|----------|
+| Capacitor C1 | 10u | Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm |
+| Content 3| Content 4|Content 4|
