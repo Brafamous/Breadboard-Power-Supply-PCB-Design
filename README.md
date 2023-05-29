@@ -23,3 +23,8 @@ Most of the embedded circuits have a standard operating voltage of 5V or 3.3V on
 | U1 | LM317_TO-220 | Package_TO_SOT_THT:TO-220-3_Vertical |
 | U2 | LM7805_TO-220 | Package_TO_SOT_THT:TO-220-3_Vertical |
 
+
+## Schematic
+
+
+![Schematic]()
