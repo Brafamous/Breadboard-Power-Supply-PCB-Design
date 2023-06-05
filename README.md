@@ -29,11 +29,14 @@ Most of the embedded circuits have a standard operating voltage of 5V or 3.3V on
 ### Main Schematic
 ![Main Schematic](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/Schematic.png)
 
+### Input Circuit
 ![Input Circuit](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/Input%20Circuit.png)
 
+### 3.3V Circuit
 ![3.3V Circuit](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/3.3V%20Circuit.png)
 
-![Input Circuit Circuit](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/Output%20circuit.png)
+### Output Circuit
+![Output Circuit](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/Output%20circuit.png)
 
 ## PCB Layout
 
@@ -42,8 +45,11 @@ Most of the embedded circuits have a standard operating voltage of 5V or 3.3V on
 
 ## 3D Views
 
+### Front View
 ![Front View](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/3D%20View_1.png)
 
+### Front View
 ![Front View](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/3D_2.png)
 
+### Back View
 ![Back View](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/3D_back.png)
