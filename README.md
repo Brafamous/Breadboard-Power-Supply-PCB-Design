@@ -26,7 +26,7 @@ Most of the embedded circuits have a standard operating voltage of 5V or 3.3V on
 
 ## Schematic
 
-
+### Main Schematic
 ![Main Schematic](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/Schematic.png)
 
 ![Input Circuit](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/Input%20Circuit.png)
