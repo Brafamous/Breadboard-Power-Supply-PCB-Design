@@ -1,19 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     margin: 20px;
+    font-size: 16px;
   }
   
   h1 {
-    color: #333;
+    color: rgb(10, 6, 0);
     text-align: center;
   }
   
   h2 {
-    color: #555;
+    color: #41a8d0;
+    text-align: center;
   }
   
   p {
-    color: #777;
+    color: #070000; 
   }
   
   table {
@@ -29,11 +31,25 @@ body {
   }
   
   th {
+    background-color: #60bce0;
+  }
+  
+  /* Add hover effect to table rows */
+  tr:hover {
     background-color: #f2f2f2;
   }
   
   img {
-    max-width: 100%;
-    height: auto;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 20px;
+    max-width: 100%;
+    height: auto; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add hover effect to images */
+  img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
   }
