@@ -4,7 +4,7 @@ Welcome to the GitHub repository for my Breadboard Power Supply PCB Design proje
 # Description
 A power supply unit (PSU) is a device that converts alternating current (AC) power from an electrical outlet into direct current (DC) power suitable for powering electronic devices. The primary function of a power supply unit is to regulate and provide stable and reliable DC voltage and current to the components it serves. It takes the incoming AC power and transforms it into the appropriate DC voltage levels required by the components, ensuring they receive a consistent power supply. 
 
-![Banner](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/electricity.png)
+![Banner](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/images/electricity.png)
 
 Most of the embedded circuits have a standard operating voltage of 5V or 3.3V on the power rails of the breadboard. In this project, I decided to design a power supply which can deliver both either 5V or 3.3V  on the power rails. This project was solely designed using KiCAD.
 
@@ -29,29 +29,29 @@ Most of the embedded circuits have a standard operating voltage of 5V or 3.3V on
 ## Schematic
 
 ### Main Schematic
-![Main Schematic](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/Schematic.png)
+![Main Schematic](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/images/Schematic.png)
 
 ### Input Circuit
-![Input Circuit](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/Input%20Circuit.png)
+![Input Circuit](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/images/Input%20Circuit.png)
 
 ### 3.3V Circuit
-![3.3V Circuit](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/3.3V%20Circuit.png)
+![3.3V Circuit](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/images/3.3V%20Circuit.png)
 
 ### Output Circuit
-![Output Circuit](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/Output%20circuit.png)
+![Output Circuit](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/images/Output%20circuit.png)
 
 ## PCB Layout
 
 
-![PCB Layout](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/Layout.png)
+![PCB Layout](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/images/Layout.png)
 
 ## 3D Views
 
 ### Front View
-![Front View](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/3D%20View_1.png)
+![Front View](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/images/3D%20View_1.png)
 
 ### Front View
-![Front View](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/3D_2.png)
+![Front View](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/images/3D_2.png)
 
 ### Back View
-![Back View](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/3D_back.png)
+![Back View](https://github.com/Brafamous/Breadboard-Power-Supply-PCB-Design/blob/main/images/3D_back.png)
