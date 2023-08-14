@@ -1,6 +1,6 @@
 body {
     font-family: 'Space Grotesk', sans-serif;
-    margin: 20px;
+    margin: 40px;
     font-size: 16px;
   }
   
@@ -15,7 +15,8 @@ body {
   }
   
   p {
-    color: #070000; 
+    color: #070000;
+    line-height: 1.5
   }
   
   table {
@@ -33,12 +34,12 @@ body {
   th {
     background-color: #60bce0;
   }
-  
-  /* Add hover effect to table rows */
-  tr:hover {
-    background-color: #f2f2f2;
+
+  footer {
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
   }
-  
   img {
     display: block;
     margin: 0 auto;
@@ -47,6 +48,12 @@ body {
     height: auto; 
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
+  /* Add hover effect to table rows */
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+ 
   
   /* Add hover effect to images */
   img:hover {
