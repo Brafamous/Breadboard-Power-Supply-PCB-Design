@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Breadboard Power Supply PCB Design</title>
+</head>
+<body>
+  <h1>Breadboard Power Supply PCB Design</h1>
+  <p>Welcome to the GitHub repository for my Breadboard Power Supply PCB Design project! This project aims to provide a compact and efficient solution for powering electronic circuits directly on a breadboard. This was designed in KiCAD.</p>
+
+  <h2>Description</h2>
+  <p>A power supply unit (PSU) is a device that converts alternating current (AC) power from an electrical outlet into direct current (DC) power suitable for powering electronic devices. The primary function of a power supply unit is to regulate and provide stable and reliable DC voltage and current to the components it serves. It takes the incoming AC power and transforms it into the appropriate DC voltage levels required by the components, ensuring they receive a consistent power supply.</p>
+
+  <img src="images\electricity.png" alt="Banner">
+
+  <p>Most of the embedded circuits have a standard operating voltage of 5V or 3.3V on the power rails of the breadboard. In this project, I decided to design a power supply which can deliver either 5V or 3.3V on the power rails. This project was solely designed using KiCAD.</p>
+
+  <h2>Bill of Materials for the Project</h2>
+  <table>
+    <tr>
+      <th>Reference</th>
+      <th>Value</th>
+      <th>Footprint Used</th>
+    </tr>
+    <tr>
+      <td>Capacitor C1</td>
+      <td>10u</td>
+      <td>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</td>
+    </tr>
+    <tr>
+      <td>Capacitor C2</td>
+      <td>1u</td>
+      <td>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</td>
+    </tr>
+    <tr>
+      <td>Capacitor C3</td>
+      <td>0.1u</td>
+      <td>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</td>
+    </tr>
+    <tr>
+      <td>Diode D1</td>
+      <td>LED</td>
+      <td>LED_THT:LED_D5.0mm</td>
+    </tr>
+    <tr>
+      <td>Switch J1</td>
+      <td>Barrel_Jack_Switch</td>
+      <td>Connector_BarrelJack:BarrelJack_Horizonta</td>
+    </tr>
+    <tr>
+      <td>Switch J2, J5</td>
+      <td>Barrel_Jack_Switch</td>
+      <td>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</td>
+    </tr>
+    <tr>
+      <td>Switch J4, J6</td>
+      <td>Barrel_Jack_Switch</td>
+      <td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td>
+    </tr>
+    <tr>
+      <td>Switch J3, J7</td>
+      <td>Barrel_Jack_Switch</td>
+      <td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td>
+    </tr>
+    <tr>
+      <td>Resistor R2</td>
+      <td>330 ohms</td>
+      <td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td>
+    </tr>
+    <tr>
+      <td>Resistor R1, R3</td>
+      <td>560 ohms</td>
+      <td>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</td>
+    </tr>
+    <tr>
+      <td>Slide Switch S1</td>
+      <td>EG1218</td>
+      <td>Digikey-footprints:Switch_Slide_11.6x4mm_EG1218</td>
+    </tr>
+    <tr>
+      <td>U1</td>
+      <td>LM317_TO-220</td>
+      <td>Package_TO_SOT_THT:TO-220-3_Vertical</td>
+    </tr>
+    <tr>
+      <td>U2</td>
+      <td>LM7805_TO-220</td>
+      <td>Package_TO_SOT_THT:TO-220-3_Vertical</td>
+    </tr>
+  </table>
+
+  <h3>Main Schematic</h3>
+  <img src="images\Schematic.png" alt="Main Schematic">
+
+  <h3>Input Circuit</h3>
+  <img src="images\Input Circuit.png" alt="Input Circuit">
+
+  <h3>3.3V Circuit</h3>
+  <img src="images\3.3V Circuit.png" alt="3.3V Circuit">
+
+  <h3>Output Circuit</h3>
+  <img src="images\Output circuit.png" alt="Output Circuit">
+
+  <h2>PCB Layout</h2>
+  <img src="images\Layout.png" alt="PCB Layout">
+
+  <h2>3D Views</h2>
+  <h3>Front View</h3>
+  <img src="images\3D View_1.png" alt="Front View">
+
+  <h3>Front View</h3>
+  <img src="images\3D_2.png" alt="Front View">
+
+  <h3>Back View</h3>
+  <img src="images\3D_back.png" alt="Back View">
+</body>
+</html>
